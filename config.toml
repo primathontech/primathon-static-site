@@ -1,0 +1,32 @@
+baseURL = 'https://example.org/'
+languageCode = "en-us"
+title = "Primathon Static Site"
+theme = "typo"
+
+[[params.menu]]
+name = "home"
+url = "/"
+
+[[params.menu]]
+name = "blogs"
+url = "/blogs"
+
+[params]
+# Meta description
+description = "A Tech Blog"
+
+# Appearance settings
+theme = 'auto'
+colorPalette = 'default'
+hideHeader = false
+
+# Intro on main page, content is markdown
+homeIntroTitle = 'Hi!'
+homeIntroContent = """
+Primathon Static Site
+"""
+
+# Collection to display on home
+homeCollectionTitle = 'blogs'
+homeCollection = 'blogs'
+
