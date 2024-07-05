@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://primathon-static-site.netlify.app'
 languageCode = "en-us"
 title = "Primathon Static Site"
 theme = "typo"
